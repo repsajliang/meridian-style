@@ -4,6 +4,13 @@
     border: 0.25px solid rgba(210, 210, 211, 0.3);
 }
 
+.new-login .main .login-carousel {
+    background-color: transparent;
+}
+
+.new-login {
+    background-color: #fff;
+    
 /*login-copyright*/
 .new-login .copyright {
     color: #020303;
