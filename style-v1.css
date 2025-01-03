@@ -4,14 +4,197 @@
     border: 0.25px solid rgba(210, 210, 211, 0.3);
 }
 
-.new-login .main .login-carousel {
-    background-color: transparent;
-}
-
-.new-login {
-    background-color: #fff;
-}
 /*login-copyright*/
 .new-login .copyright {
     color: #020303;
+}
+/*dashboard-sidebar-logo*/
+/*logo change url: https://www.ami.com/wp-content/uploads/2023/10/Meridian_OPT2.0.svg*/
+
+.header-section .logo-section[data-v-7d0b274c]:after {
+    background-color: white;
+}
+
+.header-section .logo-section .logo[data-v-7d0b274c] {
+    height: 24px;
+}
+
+.header-section .logo-section[data-v-7d0b274c] {
+    background-color: white;
+    padding: 10px 25px;
+}
+
+.side-bar {
+    background-color: white;
+}
+
+.side-bar .el-menu .el-menu-item.is-active {
+      background-color: #c89f67;
+      border-radius: 8px;
+      width: 250px;
+      height: 40px;
+      padding: 2px;
+}
+
+.el-menu{
+  background-color: #043048;
+  }
+
+.side-bar .el-menu .el-menu-item .icon img {
+    width: 14px;
+    height: 13px;
+    margin-left: 13px;
+}
+
+.side-bar .el-menu .el-sub-menu .el-sub-menu__title {
+    color: #4e6175;
+    padding-left: 15px;
+}
+
+.side-bar .el-menu .el-sub-menu .el-sub-menu__title .icon img.settings {
+    width: 13px;
+    height: 13px;
+    content: url(https://cdn-icons-png.flaticon.com/512/484/484562.png);
+}
+
+.side-bar .el-menu .el-sub-menu .el-sub-menu__title {
+    padding-left: 13px;
+}
+
+.side-bar .el-menu .el-sub-menu .el-sub-menu__title{
+    background-color: white;
+    padding-left: 13px;
+}
+
+/*.dashboard-heading*/
+.header-section .heading-section[data-v-7d0b274c] {
+    background-color: #F5F5F7;
+}
+
+/*.dashboard-heading-username*/
+.header-section .heading-section .right-section .user_name[data-v-7d0b274c] {
+  margin-left: 10px;
+}
+
+/*.dashboard-bg*/
+.home[data-v-10f0bf0b] {
+    padding: 24px;
+    padding-top: 0;
+    background-color: #F7F8FB;
+}
+
+/*.dashboard-info-both-cards*/
+.home .cards-div .card .card-header[data-v-10f0bf0b] {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.home .cards-div .card[data-v-10f0bf0b].services-card,
+.home .cards-div .card[data-v-10f0bf0b].release-card,
+.home .cards-div .card[data-v-10f0bf0b].renewal-card {
+    height: 100px;
+}
+
+.home .cards-div .card[data-v-10f0bf0b] {
+    border: 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.home .cards-div .card .card-value[data-v-10f0bf0b] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.home .cards-div .card .card-value[data-v-10f0bf0b] span {
+  order: -1;
+}
+
+.home .cards-div .card .card-value i[data-v-10f0bf0b] {
+    font-size: 1.6rem;
+}
+
+.home .cards-div .card i[data-v-10f0bf0b] {
+    color: #416F89;
+}
+
+/*.dashboard-info-user-card*/
+.home .cards-div .card.user-card[data-v-10f0bf0b] {
+    border-left: none;
+    background: linear-gradient(-30deg, #f8b26a 0%, #f47c4e 50%, #e6484d 100%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.home .cards-div .card.user-card i[data-v-10f0bf0b] {
+    display: none;
+}
+
+/*.dashboard-info-services-card*/
+.fa-user-cog:before, .fa-user-gear:before {
+    content: "\f0f3";
+}
+
+/*.dashboard-info-release-card*/
+.fa-circle-info:before, .fa-info-circle:before {
+    content: "\f35b";
+}
+
+/*.dashboard-info-renewal-card*/
+.fa-circle-info:before, .fa-info-circle:before {
+    content: "\f084";
+}
+
+/*.dashboard-selected-services_add-services*/
+.el-button.confirm-button {
+    background-color: #c89f67;
+    border-radius: 8px;
+    border: 0;
+}
+
+.home .service-div-header .fa-chevron-right[data-v-10f0bf0b] {
+    margin-right: 5px;
+    margin-left: 0;  
+}
+
+.home .service-div-header .fa-chevron-right[data-v-10f0bf0b] i {
+  order: -1;
+}
+
+.fa-chevron-right:before {
+    content: "\f067";
+}
+
+.home .service-div-header .service-header-and-button-spacer[data-v-10f0bf0b] {
+    flex: 0;
+}
+
+/*.dashboard-selected-services_services-card*/
+.home .services-div .card[data-v-10f0bf0b] {
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home .services-div .card .card-header .service-name[data-v-10f0bf0b] {
+    border: 1px solid #c89f67;
+    color: #c89f67;
+    background-color: rgba(200, 159, 103, 0.1); 
+    padding: 0.375rem 0.75rem;
+    border-radius: 8px;
+}
+
+.card-body .sub-services[data-v-10f0bf0b] {
+    /*border: 1px solid #d7d7d7;*/
+    background-color: #fff;
+    padding: 16px 0;
+    align-items: flex-end;
+}
+
+/*.dashboard-selected-services_services-card_logo*/
+.home .services-div .card .card-body .sub-services .sub-service-content .logo[data-v-10f0bf0b] {
+    /* border: 1px solid #cccccc; */
+    border-radius: 8px;
 }
