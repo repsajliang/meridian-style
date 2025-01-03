@@ -1,1 +1,1 @@
-https://cdn.jsdelivr.net/gh/repsajliang/meridian-style@main/style-v1.css
+https://cdn.jsdelivr.net/gh/repsajliang/meridian-style@版本名/style-v1.css
