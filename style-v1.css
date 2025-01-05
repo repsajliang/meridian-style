@@ -204,4 +204,6 @@
 .home .services-div .card .card-body .sub-services .sub-service-content .logo[data-v-10f0bf0b] {
     /* border: 1px solid #cccccc; */
     border-radius: 8px;
+    width: 60px;
+    height: 60px;
 }
