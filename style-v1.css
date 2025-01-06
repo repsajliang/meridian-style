@@ -19,23 +19,25 @@
 /*logo change url: https://www.ami.com/wp-content/uploads/2023/10/Meridian_OPT2.0.svg*/
 
 .header-section .logo-section[data-v-7d0b274c]:after {
+    /*background-color: var(--logo-background-colour);
+    border-bottom: 1px solid var(--primary-font-color);
+    padding-left: 16px;*/
+    padding: 10px 25px;
     background-color: white;
 }
 
 .header-section .logo-section .logo[data-v-7d0b274c] {
+    /*height: 38px;*/
     height: 24px;
 }
 
-.header-section .logo-section[data-v-7d0b274c] {
-    background-color: white;
-    padding: 10px 25px;
-}
-
 .side-bar {
+    /*background-color: #043048;*/
     background-color: white;
 }
 
 .side-bar .el-menu .el-menu-item.is-active {
+    /*background-color: #07496c;*/
       background-color: #c89f67;
       border-radius: 8px;
       width: 250px;
@@ -43,35 +45,29 @@
       padding: 2px;
 }
 
-.el-menu{
-  background-color: #043048;
-  }
-
 .side-bar .el-menu .el-menu-item .icon img {
+    /*width: 25px;
+    height: 20px;*/
     width: 14px;
     height: 13px;
     margin-left: 13px;
 }
 
 .side-bar .el-menu .el-sub-menu .el-sub-menu__title {
+    /*color: var(--sidebar-color);
+    background-color: #043048;*/
     color: #4e6175;
+    background-color: white;
     padding-left: 15px;
 }
 
 .side-bar .el-menu .el-sub-menu .el-sub-menu__title .icon img.settings {
+    /*height: 25px;*/
     width: 13px;
     height: 13px;
     content: url(https://cdn-icons-png.flaticon.com/512/484/484562.png);
 }
 
-.side-bar .el-menu .el-sub-menu .el-sub-menu__title {
-    padding-left: 13px;
-}
-
-.side-bar .el-menu .el-sub-menu .el-sub-menu__title{
-    background-color: white;
-    padding-left: 13px;
-}
 
 /*.dashboard-heading*/
 .header-section .heading-section[data-v-7d0b274c] {
@@ -85,13 +81,15 @@
 
 /*.dashboard-bg*/
 .home[data-v-10f0bf0b] {
-    padding: 24px;
     padding-top: 0;
     background-color: #F7F8FB;
 }
 
 /*.dashboard-info-both-cards*/
 .home .cards-div .card .card-header[data-v-10f0bf0b] {
+    /*font-size: 14px;
+      color: #3f3f3f;*/
+    color: #1D1D1F;
     font-size: 18px;
     text-align: center;
     font-weight: 600;
@@ -100,17 +98,23 @@
 .home .cards-div .card[data-v-10f0bf0b].services-card,
 .home .cards-div .card[data-v-10f0bf0b].release-card,
 .home .cards-div .card[data-v-10f0bf0b].renewal-card {
+    /*height: 114px;*/
     height: 100px;
 }
 
 .home .cards-div .card[data-v-10f0bf0b] {
+    /*
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #00000059;
+    */
     border: 0;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-}
-
+} 
+    
 .home .cards-div .card .card-value[data-v-10f0bf0b] {
     display: flex;
+    /*justify-content: space-between;*/
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -125,8 +129,10 @@
 }
 
 .home .cards-div .card i[data-v-10f0bf0b] {
+    /*    color: #629971;*/
     color: #416F89;
 }
+
 
 /*.dashboard-info-user-card*/
 .home .cards-div .card.user-card[data-v-10f0bf0b] {
@@ -136,51 +142,86 @@
     border-radius: 8px;
 }
 
+.home .cards-div .card.user-card .card-value[data-v-10f0bf0b] { 
+    /*font-size: 12px;*/
+    font-size: 11px;
+    color: #0000008F;
+}
+    
 .home .cards-div .card.user-card i[data-v-10f0bf0b] {
     display: none;
 }
 
 /*.dashboard-info-services-card*/
-.fa-user-cog:before, .fa-user-gear:before {
+.fa-user-gear:before {
     content: "\f0f3";
 }
 
+
+.home .cards-div .card.services-card[data-v-10f0bf0b] {
+    /*border-left: 8px solid #629971;*/
+}
+    
+.home .cards-div .card.services-card i[data-v-10f0bf0b] {
+    /*color: #629971;*/
+    color: #416F89;
+}   
 /*.dashboard-info-release-card*/
-.fa-circle-info:before, .fa-info-circle:before {
+.home .cards-div .card.release-card[data-v-10f0bf0b] {
+    /*border-left: 8px solid #ff8563;*/
+}
+    
+.fa-circle-info:before {
     content: "\f35b";
 }
 
+.home .cards-div .card.release-card i[data-v-10f0bf0b] {
+    /*color: #ff8563;*/
+    color: #416F89;
+}
+    
 /*.dashboard-info-renewal-card*/
-.fa-circle-info:before, .fa-info-circle:before {
+.home .cards-div .card.renewal-card[data-v-10f0bf0b] {
+    /*border-left: 8px solid #ff8563;*/
+}
+    
+.fa-id-card:before{
     content: "\f084";
 }
 
+.home .cards-div .card.renewal-card i[data-v-10f0bf0b] {
+    /*color: #e74c3c;*/
+    color: #416F89;
+}    
+
 /*.dashboard-selected-services_add-services*/
 .el-button.confirm-button {
+    /*background-color: var(--confirm-button-bg-color);*/
     background-color: #c89f67;
     border-radius: 8px;
     border: 0;
 }
-
+    
 .home .service-div-header .fa-chevron-right[data-v-10f0bf0b] {
+    /*margin-left: 5px;*/
     margin-right: 5px;
     margin-left: 0;  
 }
 
-.home .service-div-header .fa-chevron-right[data-v-10f0bf0b] i {
-  order: -1;
-}
-
 .fa-chevron-right:before {
+    /*content: "\f054";*/
     content: "\f067";
 }
 
 .home .service-div-header .service-header-and-button-spacer[data-v-10f0bf0b] {
+     /*flex: 1;*/
     flex: 0;
 }
 
 /*.dashboard-selected-services_services-card*/
 .home .services-div .card[data-v-10f0bf0b] {
+    /*border-radius: 4px;
+    box-shadow: 1px 1px 5px #00000059;*/
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
