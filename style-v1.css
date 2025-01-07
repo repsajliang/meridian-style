@@ -227,6 +227,7 @@
 }
 
 .home .services-div .card .card-header .service-name[data-v-10f0bf0b] {
+    /*color: #212121;*/
     border: 1px solid #c89f67;
     color: #c89f67;
     background-color: rgba(200, 159, 103, 0.1); 
@@ -235,16 +236,22 @@
 }
 
 .card-body .sub-services[data-v-10f0bf0b] {
-    /*border: 1px solid #d7d7d7;*/
+    /*border: 1px solid #d7d7d7;
+    background-color: #fff0;
+    padding: 16px;;*/
     background-color: #fff;
     padding: 16px 0;
-    align-items: flex-end;
 }
 
 /*.dashboard-selected-services_services-card_logo*/
 .home .services-div .card .card-body .sub-services .sub-service-content .logo[data-v-10f0bf0b] {
-    /* border: 1px solid #cccccc; */
+    /* border: 1px solid #cccccc; 
+    border-radius: 5px;
+    width: 64px;
+    height: 56px;
+    background: #b9e7ff*/
     border-radius: 8px;
     width: 60px;
     height: 60px;
+    border: 1px solid #d2d2d7
 }
